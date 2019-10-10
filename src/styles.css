@@ -1,0 +1,6 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    color: rgb(69, 66, 66);
+    font-size: 2em;
+}
