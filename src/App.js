@@ -1,29 +1,21 @@
 import React from 'react';
 import logo from './logo.svg';
 import styles from  './styles.css';
+import NavBar from './Component/NavBar';
+import Body from './Component/Body.js';
 
 
 class App extends React.Component{
-  constructor (props) {
-    super(props);
-    this.state = {
-      item: '',
-      cost: ''
+  constructor () {
+    super();
+   
     }
-  }
-
-  changeItem(input){
-    
-  }
-
 
   render() {
     return(
-      <div>
-        <header class= "header">Welcom to ushop</header>
-       <input 
-       onChange= { (e)=>this.changeItem(e.target.value)}
-       value={this.state.item} type="text"/>
+      <div> 
+             <NavBar />
+             <Body />
       </div>
     );
   }
