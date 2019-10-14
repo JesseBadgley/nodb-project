@@ -19,9 +19,9 @@ class Search extends Component {
       })
   }
 
-  handleInputChange = () => {
+  handleInputChange = (e) => {
     this.setState({
-      query: this.search.value
+      query: e.target.value
     }, () => {
       if (this.state.query && this.state.query.length > 1) {
         if (this.state.query.length % 2 === 0) {
@@ -39,6 +39,7 @@ class Search extends Component {
   render() {
     return (
       <form>
+      
       <div class = "search">
         <input placeholder="search..."  onChange={this.handleInputChange}/>
       </div>  

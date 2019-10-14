@@ -17,7 +17,11 @@ export default class SideTop extends React.Component {
             </div>
             <div class= "pair-2">
                 <h3>Name: The Salty Lady</h3>
-                <h4>Food Pairing: Straight up or with mussels, oysters, ceviche, goat cheese, grilled fish or chicken, and dishes with egg- or cream-enriched sauces.</h4>
+                <h4>Food Pairing: Mussels, oysters, ceviche, goat cheese, grilled fish or chicken, and dishes with egg- or cream-enriched sauces.</h4>
+            </div>
+                <div class= "pair-3">
+                <h3> Name: Dallas Blonde</h3>
+                <h4> Food Pairing: Straight up or with mussels smoked meats, potato salad, goes great with bbq.</h4>
             </div>
               
             

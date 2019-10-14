@@ -56,10 +56,6 @@ export default class FetchBeer extends React.Component {
       this.setState({errorMessage: error.message});
     })
     }
-
-   
-
-    
     
 
 //   componentDidMount() {
@@ -93,7 +89,7 @@ export default class FetchBeer extends React.Component {
             <section class = "beer-finder">
                  <search class= "search-txt">   <Search />  </search>
                
-               <div class= "randomizer"> Or get random beer <button onClick={this.componentDidMount}>click me</button></div>
+               <div class= "randomizer"> Get Random Beer <button onClick={this.componentDidMount}>click me</button></div>
               <p>{mappedBeers}</p>
              </section>
         )
