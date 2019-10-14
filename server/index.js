@@ -1,5 +1,5 @@
 const express = require("express");
-const {addItem,showItem, deleteItem, update, } = require("./shopuController.js")
+const {addItem,showItem, deleteItem, update, } = require("./brewUController.js")
 const app = express ();
 const PORT = 7777;
 

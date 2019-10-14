@@ -8,7 +8,7 @@
 .nav-container{
     display: flex;
     flex-direction: column;
-    height: 20vh;
+    height: 12vh;
    
    
    
@@ -19,8 +19,8 @@
     text-align: center;
     color: rgb(69, 66, 66);
     font-size: 2.4em;
-    height: 10vh;
-    margin-top:3px;
+    height: 5vh;
+    margin-top:12px;
     margin-bottom:0%;
    
     
@@ -46,7 +46,9 @@ margin-bottom: 5px;
 
 .list-container {
 width: 40vw;
-margin-top: 14vh;
+margin-top: 5vh;
+margin-left: 5vw;
+
 
 }
 
@@ -58,15 +60,21 @@ margin-top: 14vh;
     width: 10vw;
 }
 
-.beer-finder{
-   
+.randomizer{
+        color: rgb(69, 66, 66);
+
 }
 
 .search-txt {
     font-size: 1em;
     color: rgb(69, 66, 66);
+    margin-bottom: 10vh;
+    
 }
 
+.search{
+    margin-bottom: 4vh;
+}
 
 .fetch-beer-container{
     width: 40vw;
@@ -75,8 +83,8 @@ margin-top: 14vh;
 }
 
 .img-container {
-    
-    width: 10vw;
+    max-height: 50vh;
+    max-width: 10vw;
 }
 
 .food-pairing {
@@ -103,8 +111,8 @@ flex-direction: column;
     width: 40vw;
     height: 50vh;
     text-align: center;
-    margin-left: 50px;
-    background-color: #f2f2f2;
+    margin-left: 5vw;
+    background-color: #e6e6e6;
     border-radius: 25px;
 }
 
@@ -112,17 +120,21 @@ flex-direction: column;
     
      padding-bottom: 1px;
      padding-top: 1px;
+     letter-spacing:1.2px;
 }
 
 .pair-2 {
      padding-bottom: 1px;
      padding-top: 1px;
+     letter-spacing:1.2px;
+     
+     
 }
 
-.pair-3 {
+/* .pair-3 {
     padding-bottom: 1px;
      padding-top: 1px;
-}
+} */
 
 
 .box-container{
@@ -141,10 +153,10 @@ header{
 
 }
 
+h2{
+    letter-spacing:1.5px;
+}
 
-body, html{
-    /* background-image: url('./Addheading.jpg');
-    background-position:center;
-    background-size:cover;
-    background-repeat:no-repeat; */
+.icon{
+    height:30px;
 }

@@ -91,9 +91,9 @@ export default class FetchBeer extends React.Component {
     })
         return (
             <section class = "beer-finder">
-                 <div class= "search-txt"> Find beer by food pairing: </div>
-                <Search /> 
-              <button onClick={this.componentDidMount}>Random Beer</button>
+                 <search class= "search-txt">   <Search />  </search>
+               
+               <div class= "randomizer"> Or get random beer <button onClick={this.componentDidMount}>click me</button></div>
               <p>{mappedBeers}</p>
              </section>
         )

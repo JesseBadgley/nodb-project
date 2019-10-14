@@ -79,7 +79,7 @@ this.update = this.update.bind(this);
         return(
           
              <aside class = "list-container">
-            
+                <h3>Favorite List</h3>
                 <form class = "inputs">
                      <input placeholder="beer.."  onChange={this.addItem}/>
                      <input placeholder="more info.." onChange={this.handleCostChange}/>

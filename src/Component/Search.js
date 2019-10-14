@@ -14,7 +14,7 @@ class Search extends Component {
     Axios.get(`https://api.punkapi.com/v2/beers/food/${this.state.query}`)
       .then(({ data }) => {
         this.setState({
-          results: data.data
+          results: data.query
         })
       })
   }
@@ -39,8 +39,9 @@ class Search extends Component {
   render() {
     return (
       <form>
-        <input placeholder="Search..."  onChange={this.handleInputChange}/>
-        
+      <div class = "search">
+        <input placeholder="search..."  onChange={this.handleInputChange}/>
+      </div>  
       </form>
     )
   }

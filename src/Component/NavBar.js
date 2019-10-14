@@ -1,5 +1,6 @@
 import  React from "react";
 import Axios from "axios";
+import image from "../images.png";
   
 
 class NavBar extends React.Component {
@@ -16,9 +17,10 @@ class NavBar extends React.Component {
     render() {
         return(
             <header class= "header">
-            <h1 class = "brew-u">{this.state.title}</h1>
+            <h1 class = "brew-u">{this.state.title} <img className="icon" src={image}></img> </h1>
             <p class= "under-header-info">{this.state.info}</p>
             </header>
+            
         )
     }
 
