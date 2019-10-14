@@ -6,8 +6,8 @@ class NavBar extends React.Component {
     constructor() {
         super();
         this.state = {
-            title: "welcome to ushop.",
-            info: "use the list bewlow and never forget another item while your're out shopping."
+            title: "brew-u",
+            info: "Find a beer, add to your list, and enjoy next time at your favorite pub!"
         }
         
 
@@ -15,10 +15,10 @@ class NavBar extends React.Component {
 
     render() {
         return(
-            <nav>
-                <header class= "header">{this.state.title}</header>
-                <h4 class= "under-header-info">{this.state.info}</h4>
-            </nav>
+            <header class= "header">
+            <h1 class = "brew-u">{this.state.title}</h1>
+            <p class= "under-header-info">{this.state.info}</p>
+            </header>
         )
     }
 
